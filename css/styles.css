@@ -1,0 +1,177 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  height: 300px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  height: 100px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+}
+
+.navbar {
+  color: #eee;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0 0 10% 0;
+}
+
+.nav-item {
+
+  padding: 0 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.mob{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  margin-left: 100px;
+
+}
+
+.dbtn {
+  margin: 3%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4068;
+}
+
+.testimg {
+  width: 150px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.logo {
+  width: 160px;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta h3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.ctabtn {
+  margin: 5% 2%;
+}
+
+.ffab {
+  margin: 5% 2% 2%;
+  color: gray;
+}
+
+.ffab:hover {
+  color: #00bcd4;
+  font-size: 250%;
+}
+
+@media (max-width: 1000px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .mob {
+    position: static;
+    transform: none;
+    margin-left: 0;
+  }
+
+.fea {
+  padding-bottom: 40px;
+}
+
+.ffab {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+}
